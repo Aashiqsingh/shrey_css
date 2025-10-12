@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar2 {
+        height: 100px;
+        width: 100%;
+        /* background-color: rgba(0, 0, 0, 0.365); */
+        background-color: rgba(0, 0, 0, 0.45);
+        /* opacity: 0.4; */
+        padding-left: 20px;
+        padding-top: 10px;
+        position: absolute;
+
+        z-index: 1;
+    }
+
+    .link {
+        float: right;
+        margin-top: -60px;
+        margin-right: 30px;
+    }
+
+    .link a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px;
+        font-family: arial;
+    }
+
+    .link a:hover {
+        color: orangered;
+        transition: 0.5s;
+    }
+
+    .fa-house-chimney {
+        color: orangered;
+        font-size: 30px;
+    }
+
+    .fa-phone-volume:hover {
+        color: white;
+    }
+</style>
+
+<body>
+
+    <div class="main">
+        <div class="navbar2">
+            <div class="logo">
+                <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/logo_white-1.png" alt="">
+            </div>
+            <div class="link">
+                <a href=""><i class="fa-solid fa-house-chimney"></i></a>
+                <a href="">About us</a>
+                <a href="">Our service</a>
+                <a href="">Contact</a>
+                <a href=""><i class="fa-solid fa-phone-volume"></i>+91 8926387937</a>
+            </div>
+        </div>
+        <!-- navbar ending -->
+        <div class="slider">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/hallticketbgnew.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img src="https://royaltechnosoft.com/wp-content/uploads/2018/11/slider_image5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
