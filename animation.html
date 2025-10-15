@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    /* from : starting point
+        to : ending point
+    */
+    .box{
+        height: 200px;
+        width: 200px;
+        background-color: teal;
+
+        animation-name: shrey;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes shrey{
+        from{
+            height: 0;
+            width: 0;
+        }
+        to{
+            height: 400px;
+            width: 400px;
+
+            background-color: red;
+            border-radius: 50%;
+            border: 10px dotted yellow;
+            background-image: url();
+        }
+    }
+</style>
+<body>
+
+
+    <div class="box"></div>
+    
+</body>
+</html>
