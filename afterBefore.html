@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 300px;
+        width: 300px;
+        border: 2px solid black;
+
+        background-image: url('https://media.newindianexpress.com/newindianexpress%2F2025-01-24%2F4qs1u0l0%2FPTI01242025000165A.jpg?rect=0%2C0%2C4800%2C2700&w=480&auto=format%2Ccompress&fit=max');
+        background-size: 300px 300px;
+    }
+    .box::before{
+        position: absolute;
+        content: '';
+        height: 150px;
+        width: 300px;
+        background-color: rgba(255, 166, 0, 0.847);
+        transition: 1s;
+    }
+    .box::after{
+        content: '';
+        position: absolute;
+        height: 150px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.813);
+        /* left: 160px; */
+        right: 970px;
+        bottom: 248px;
+        transition: 1s;
+    }
+    .box:hover::before{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+    .box:hover::after{
+        width: 0;
+        height: 0;
+        transition: 1s;
+    }
+</style>
+<body>
+
+    <div class="box">
+
+    </div>
+    
+</body>
+</html>
