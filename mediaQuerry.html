@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        height: 500px;
+        width: 100%;
+        background-color: teal;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .profile img{
+        height: 300px;
+        width: 100%;
+    }
+    .profile{
+        width: 30%;
+    }
+    .para{
+        width: 65%;
+        font-size: 20px;
+        color: white;
+        text-align: justify;
+    }
+
+    @media(max-width: 500px){
+        .box{
+            background-color: red;
+            display: block;
+            height: auto;
+            padding: 10px;
+            border-radius: 0;
+        }
+        .profile{
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        .profile img{
+            border-radius: 30px;
+        }
+        .para{
+            width: 100%;
+        }
+    }
+
+    @media(min-width: 500px) and (max-width: 900px){
+        .box{
+            background-color: blue;
+        }
+    }
+
+    @media(min-width: 900px){
+        .box{
+            background-color: green;
+            border-radius: 0;
+            height: 100%;
+            padding: 10px;
+        }
+        .profile{
+            width: 45%;
+        }
+        .profile img{
+            border-radius: 50%;
+            border: 5px dotted white;
+        }
+        .para{
+            width: 50%;
+        }
+    }
+
+
+</style>
+<body>
+
+
+    <!-- media queries : page responsiveness -->
+
+    <div class="box">
+        <div class="profile">
+            <img src="https://aniportalimages.s3.amazonaws.com/media/details/HGFHJUGJU.jpg" alt="">
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reiciendis hic accusantium natus? Corrupti tempore quaerat veniam voluptatum quae aliquid praesentium nesciunt in explicabo, libero, nostrum quod. Similique cumque consequatur nam molestias ad, nulla ea, fugit ipsa, odit non illum placeat voluptate quaerat aut magni rerum sunt? Possimus, cum blanditiis odit laborum praesentium nemo aliquam dicta dolorum neque debitis earum delectus placeat error esse reprehenderit tempore a, ipsa aperiam laboriosam. Possimus amet ut corrupti, optio dolores sunt delectus animi cum quasi architecto sequi eos ab maiores aspernatur accusamus, dolor dicta labore accusantium eius doloremque natus hic? Ut quidem totam obcaecati quod voluptates in blanditiis voluptatum reprehenderit ratione debitis culpa ullam, delectus vel voluptas laudantium! Doloribus dolores ipsum quibusdam eum veritatis placeat et alias velit esse iure am placeat id, ab fugiat ullam doloribus illum a sint cupiditate laboriosam voluptates fugit. Harum nulla voluptatum cumque enim eos. Sequi necessitatibus iusto numquam soluta in possimus officia quo iure id, fuga ipsa placeat facere hic, aspernatur impedit rem quod labore temporibus illo est?
+        </div>
+    </div>
+    
+</body>
+</html>
